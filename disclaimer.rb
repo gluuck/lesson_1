@@ -19,7 +19,7 @@ if disc < 0
 elsif disc == 0
 	puts "Дискриминант: #{disc} ,корень: #{Math.sqrt(disc)}"
 elsif disc > 0
-	x_1 = (-b + Math.sqrt(disc))/2*a
-	x_2= (-b - Math.sqrt(disc))/2*a
+	x_1 = (-b + Math.sqrt(disc))/(2*a)
+	x_2= (-b - Math.sqrt(disc))/(2*a)
 	puts "Дискриминант: #{disc} ,корень X1: #{x_1}, корень X2: #{x_2}"
 end
