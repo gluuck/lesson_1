@@ -10,7 +10,7 @@ puts 'Введита значение C'
 
 c = gets.to_i
 
-disc = b**2 - 4*a*c
+disc = b**2 - (4*a*c)
 
 #
 if disc < 0
